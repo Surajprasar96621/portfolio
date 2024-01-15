@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio SurajPrasar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ffd6380e04.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">SURAJ.</h1>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Front End Developer</p>
+                <h1>Hi, I'm <span>Suraj</span><br> Prasar from India</h1>
+            </div>
+        </div>
+    </div>
+<!-----------------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/munna.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-titel">About me</h1>
+                    <p>Suraj Prasar is a dynamic software developer with a passion for crafting elegant and efficient solutions. Armed with a love for coding, Suraj is on a perpetual journey of exploration and mastery within the vast realm of software development. Known for meticulous problem-solving and a knack for turning concepts into functional code, Suraj thrives in collaborative environments and embraces the ever-evolving nature of technology. With a commitment to continuous learning and a friendly, approachable demeanor, Suraj Prasar is not just a coder but a dedicated enthusiast contributing to the vibrant world of software development.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills', event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experince', event)">Experince</p>
+                        <p class="tab-links" onclick="opentab('Education', event)">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Software Developer</span><br>Front End Developer</li>
+                            <li><span>Web Development</span><br>Backend End Developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experince">
+                        <ul>
+                            <li><span>2024 - current</span><br>Front End developer in masai</li>
+                            <li><span>Web 2022 - 2023</span><br>Team lead at digital to make web design</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Software developer in masai</li>
+                            <li><span>2023</span><br>Admit in IGNOU</li>
+                            <li><span>2023</span><br>12TH completed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------services-------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-titles">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front End Development</h2>
+                    <p>I am Suraj Prasar, a dedicated individual currently immersed in the exciting world of software development. As a passionate learner and aspiring software developer, my journey has been marked by a relentless pursuit of knowledge and a commitment to staying at the forefront of technological advancements.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------------portfolio------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-titles">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work1.png">
+                <div class="layer">
+                    <h3>Web Design</h3>
+                    <p>The tools connects you to the talented people around the world to develop web Design.HTML (Hypertext Markup Language) is the standard markup language used to create and structure content on the web. It provides the basic building blocks for web pages, such as headings, paragraphs, images, and links. CSS (Cascading Style Sheets) is a styling language that complements HTML, enabling the presentation and layout of web pages. It allows designers to control the visual aspects of a website, including colors, fonts, and spacing. JavaScript, on the other hand, is a dynamic programming language that adds interactivity and behavior to web pages. It enables developers to create dynamic content, handle events, and manipulate the Document Object Model (DOM), facilitating a more engaging user experience. Together, HTML, CSS, and JavaScript form the essential trio for building modern, interactive, and visually appealing websites.</p>
+                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-----------------Contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact surajprasar8@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9662134138</p>
+                <div class="social-icons">
+                   <a href="https://www.linkedin.com/in/suraj-prasar-0b20232a0/"><i class="fa-brands fa-linkedin"></i></a> 
+                   <a href="https://github.com/Surajprasar96621"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="image/Suraj Prasar-surajprasar-Frontend Developer(React).pdf" download class="btn btn2">Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name"Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="your email" required>
+                    <textarea name="Message" row="6" placeholder="your message"></textarea>
+                    <button type="sumbit" class="btn btn3">Sumbit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Suraj,Made with<i class="fa-solid fa-heart"></i> by easy code.</p>
+    </div>
+</div>
+
+    <script>
+        
+var tablinks = document.getElementElementsByclass("tab-links");
+var tabcontents = document.getElementElementsByclass("tab-contents");
+
+function openTab(tabname,event){
+    for(var tablink of tablinks){
+        tablink.classlist.remove("active-link");
+    }
+    for(var tabcontent of tabcontents){
+        tabcontent.classlist.remove("active-tab");
+    }
+    event.currentTarget.classlist.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+    </script>
+</body>
+</html>
